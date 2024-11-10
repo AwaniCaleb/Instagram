@@ -5,7 +5,9 @@ export default defineConfig({
     build: {
         outDir: './dist',  // Output to the 'dist' folder in the root
         rollupOptions: {
-            input: './src/my-profile.html'  // Explicitly set the entry point to index.html
+            input: {
+                profile: './public/my-profile.html'
+            }  // Explicitly set the entry point to index.html
         }
     }
 });
