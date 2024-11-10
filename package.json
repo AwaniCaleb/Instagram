@@ -1,0 +1,21 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/style.css --watch",
+    "prettier": "npx prettier --write **/*.html",
+    "build": "postcss ./src/styles/tailwind.css -o dist/tailwind.css",
+    "watch": "postcss ./src/styles/tailwind.css -o dist/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.8"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5"
+  }
+}
