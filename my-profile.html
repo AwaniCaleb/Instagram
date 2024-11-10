@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awani Caleb (@awanicaleb) | Instagram Clone</title>
+
+    <link type="image/png" sizes="32x32" rel="icon" href="./img/fav/icons8-instagram-pastel-color-120.png" />
+
+    <link rel="stylesheet" href="/src/styles/style.css" />
+
+    <script type="module" src="/src/js/all.js" defer></script>
+    <script type="module" src="/src/js/my-profile.js" defer></script>
+</head>
+
+<body class="min-h-screen bg-white dark:bg-black dark:text-white">
+    <header
+        class="lg:hidden md:hidden flex p-4 position-sticky top-0 dark:bg-black bg-white gap-3 z-10 justify-between items-center">
+        <div>
+            <a href="#" id="achor-account-settings">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+            </a>
+        </div>
+        <div>
+            <span class="flex justify-center items-center gap-1">
+                <a href="#" id="achor-switch-account" class="no-underline">
+                    @awanicaleb
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+            </span>
+        </div>
+    </header>
+
+    <section class="border-b-1 dark:bg-neutral-900 dark:border-gray-300 border-solid p-3 flex gap-2 justify-center">
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+            </svg>
+        </span>
+        <span>Built with
+            <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="underline">Tailwind</a>.
+            This interface is not responsive</span>
+    </section>
+
+    <div id="page-content" class="">
+        <section id="unsupported-device" class="pt-10 container mx-auto hidden">
+            <div class="flex justify-center items-center flex-col">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-12">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+                    </svg>
+                </div>
+                <p class="px-9 text-center">
+                    This page is not optimized for mobile or tablet devices yet. I am
+                    working on making it fully responsive. Please visit it on a larger
+                    screen.
+                </p>
+            </div>
+        </section>
+
+        <div id="page-content-inner" class="container lg:w-[90%] mx-auto flex justify-center">
+            <section class="pt-10 lg:w-fit" d-c="page-content">
+                <div id="my-insights-and-about-section"
+                    class="flex flex-row justify-center gap-28 items-center lg:px-5">
+                    <div>
+                        <img class="rounded-full w-40 h-40" src="./img/assets/8.jpg" alt="Image" />
+                    </div>
+                    <div>
+                        <div class="flex gap-3 mb-4">
+                            <div class="flex gap-2 justify-center align-middle items-center content-center">
+                                <h2 class="text-xl">awanicaleb</h2>
+                                <svg aria-label="Verified" class="x1lliihq x1n2onr6" fill="rgb(0, 149, 246)" height="18"
+                                    role="img" viewBox="0 0 40 40" width="18">
+                                    <title>Verified</title>
+                                    <path
+                                        d="M19.998 3.094 14.638 0l-2.972 5.15H5.432v6.354L0 14.64 3.094 20 0 25.359l5.432 3.137v5.905h5.975L14.638 40l5.36-3.094L25.358 40l3.232-5.6h6.162v-6.01L40 25.359 36.905 20 40 14.641l-5.248-3.03v-6.46h-6.419L25.358 0l-5.36 3.094Zm7.415 11.225 2.254 2.287-11.43 11.5-6.835-6.93 2.244-2.258 4.587 4.581 9.18-9.18Z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="inline-flex px-2 py-1 dark:bg-gray-600 border-0 focus:outline-none hover:bg-gray-700 rounded text-sm">
+                                    Edit profile
+                                </button>
+                                <button
+                                    class="inline-flex px-2 py-1 dark:bg-gray-600 border-0 focus:outline-none hover:bg-gray-700 rounded text-sm">
+                                    View archive
+                                </button>
+                                <button
+                                    class="inline-flex px-2 py-1 dark:bg-gray-600 border-0 focus:outline-none hover:bg-gray-700 rounded text-sm">
+                                    Ad tools
+                                </button>
+                                <a href="#" id="achor-account-settings">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-10 mb-4">
+                            <span title="1"><strong>1</strong> post</span>
+                            <span title="283,421"><strong>100.6M</strong> followers</span>
+                            <span title="1"><strong>10</strong> following</span>
+                        </div>
+                        <div class="text-sm">
+                            <div id="user-full-name">
+                                <span>Awani Caleb</span>
+                            </div>
+                            <div id="user-category block" class="mb-2">
+                                <span class="dark:text-gray-400">Programmer</span>
+                            </div>
+                            <p id="user-bio" class="mb-2">Love one another</p>
+                        </div>
+                        <div id="user-insight-message">
+                            <span>
+                                12K accounts reached in the last 30 days.
+                                <a href="#"><strong>View insights</strong></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="my-highlight-section" class="mt-9 gap-14 flex">
+                    <div id="new-highlight" class="hightlight-cover">
+                        <button class="flex gap-2 flex-col">
+                            <div class="media-cover-outer h-[90px] w-[90px] p-1 border border-gray-600 rounded-full">
+                                <div class="media-cover-inner w-full h-full bg-gray-600 rounded-full p-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-14">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <spam class="dark:text-white text-black">New</spam>
+                        </button>
+                    </div>
+
+                    <div class="hightlight-cover">
+                        <button class="flex gap-2 flex-col">
+                            <div class="media-cover-outer h-[90px] w-[90px] p-1 border border-gray-600 rounded-full">
+                                <div class="media-cover-inner w-full h-full bg-gray-600 rounded-full overflow-hidden">
+                                    <img class="object-cover h-full w-full" src="./img/assets/2.jpg"
+                                        alt="hightlight-image-preview" />
+                                </div>
+                            </div>
+                            <spam class="dark:text-white text-black">Resident Evil</spam>
+                        </button>
+                    </div>
+
+                    <div class="hightlight-cover">
+                        <button class="flex gap-2 flex-col">
+                            <div class="media-cover-outer h-[90px] w-[90px] p-1 border border-gray-600 rounded-full">
+                                <div class="media-cover-inner w-full h-full bg-gray-600 rounded-full overflow-hidden">
+                                    <img class="object-cover h-full w-full" src="./img/assets/1.jpg"
+                                        alt="hightlight-image-preview" />
+                                </div>
+                            </div>
+                            <spam class="dark:text-white text-black">Anime</spam>
+                        </button>
+                    </div>
+
+                    <div class="hightlight-cover">
+                        <button class="flex gap-2 flex-col">
+                            <div class="media-cover-outer h-[90px] w-[90px] p-1 border border-gray-600 rounded-full">
+                                <div class="media-cover-inner w-full h-full bg-gray-600 rounded-full overflow-hidden">
+                                    <img class="object-cover h-full w-full" src="./img/assets/5.jpg"
+                                        alt="hightlight-image-preview" />
+                                </div>
+                            </div>
+                            <spam class="dark:text-white text-black">Games</spam>
+                        </button>
+                    </div>
+                </div>
+
+                <div id="my-content-section" class="mt-12">
+                    <nav class="border-t dark:border-gray-800">
+                        <ul class="flex items-center justify-center gap-3 py-4 px-8 text-sm font-medium text-white">
+                            <li class="mr-8">
+                                <a href="#" class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9 4.5v15m6-15v15m-10.875 0h15.75c.621 0 1.125-.504 1.125-1.125V5.625c0-.621-.504-1.125-1.125-1.125H4.125C3.504 4.5 3 5.004 3 5.625v12.75c0 .621.504 1.125 1.125 1.125Z" />
+                                    </svg>
+                                    <spam>Posts</span>
+                                </a>
+                            </li>
+                            <li class="mr-8">
+                                <a href="#" class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                                    </svg>
+                                    <span>Saved</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-5">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6Z" />
+                                    </svg>
+                                    <span>Tagged</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div></div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
