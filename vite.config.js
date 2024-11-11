@@ -1,13 +1,15 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    root: '.',               // Root directory of the project
-    publicDir: 'public',     // Public folder for static assets
+    base: '/Instagram/',         // Required for GitHub Pages
+    publicDir: 'public',         // Set public directory
     build: {
-        outDir: 'dist',        // Output directory for build files
+        outDir: 'dist',            // Output directory
         rollupOptions: {
-            input: './public/index.html', // Specify entry file location
+            input: {
+                main: './public/index.html',
+                profile: './public/my-profile.html',  // Include any other additional pages here
+            },
         },
     },
-    base: '/Instagram/',     // Base path for GitHub Pages
 });
