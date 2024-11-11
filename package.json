@@ -6,10 +6,11 @@
 		"tailwind": "npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/style.css --watch",
 		"prettier": "npx prettier --write **/*.html",
 		"watch": "postcss ./src/styles/tailwind.css -o dist/tailwind.css --watch",
-		"predeploy": "npm run build",
+		"serve": "vite preview",
 		"dev": "vite",
 		"build": "vite build",
-		"serve": "vite preview",
+		"preview": "vite preview",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist"
 	},
 	"keywords": [],

@@ -1,13 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    root: "./src",
+    base: '/Instagram/',  // GitHub Pages base path
     build: {
-        outDir: './dist',  // Output to the 'dist' folder in the root
-        rollupOptions: {
-            input: {
-                profile: './public/my-profile.html'
-            }  // Explicitly set the entry point to index.html
-        }
-    }
+        outDir: 'dist',    // Output directory
+    },
 });
