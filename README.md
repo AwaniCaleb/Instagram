@@ -1,6 +1,6 @@
 # Instagram UI with Tailwind CSS
 
-![Instagram UI Screenshot](link-to-your-screenshot)
+<!-- ![Instagram UI Screenshot](link-to-your-screenshot) -->
 
 ## 📌 Project Overview
 This project is a frontend implementation of the Instagram user interface, built to practice and showcase skills in **Tailwind CSS**. The focus is on accurate UI replication and responsive design.
@@ -11,14 +11,15 @@ This project is a frontend implementation of the Instagram user interface, built
 - Interactive components styled to mimic Instagram's look and feel
 
 ## 🌟 Live Demo
-[View Live Demo](link-to-demo)
+[View Live Demo](https://awanicaleb.github.io/Instagram/)
 
 ## 🛠️ Tech Stack
 - **Frontend**: HTML, Tailwind CSS
 <!-- - **Build Tool**: Vite -->
 
 ## 📸 Screenshots
-![Homepage Screenshot](link-to-screenshot)
+I haven't taken any screenshots at the moment
+<!-- ![Homepage Screenshot](link-to-screenshot) -->
 
 ## 📄 Getting Started
 ### Prerequisites
