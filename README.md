@@ -32,13 +32,16 @@ Ensure you have `Node.js` and `npm` installed.
    cd Instagram
 
 2. Install dependencies
-    ``` npm install
+    ```bash
+    npm install
 
 3. Start the development server
-    ``` npm run dev
+    ```bash
+     npm run dev
 
 ### Build for Production
-``` npm run build
+```bash
+ npm run build
 
 ### 📝 Future Enhancements
 * Add more pages
