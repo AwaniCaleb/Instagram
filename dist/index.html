@@ -4,19 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index | Instagram Clone</title>
-    <link rel="stylesheet" href="/src/styles/tailwind.css">
+    <title>Index | Instagram</title>
 
     <link type="image/png" sizes="32x32" rel="icon" href="./img/fav/icons8-instagram-pastel-color-120.png" />
+
+    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+
     <script type="module" src="/src/js/all.js" defer></script>
 </head>
 
-<body>
-    <div class="text-center text-3xl font-bold text-blue-500">
-        Instagram Clone with Tailwind CSS
+<body class="h-full w-full">
+    <div class="min-h-[100vh] min-w-full bg-gradient-to-br dark:from-black dark:to-gray-950 from-white to-gray-100 flex items-center justify-center">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+        <div class="text-center">
+            <div>
+                <ul id="pages-nav" class="list-none">
+                    <li><a href="./my-profile.html" class="uppercase no-underline block p-5 rounded-sm text-center font-bold bg-[#1d252c] text-[#6b7278] mb-1">My profile</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <a href="./my-profile.html">Visit my profile</a>
-    <script src="/src/main.js"></script>
 </body>
 
 </html>

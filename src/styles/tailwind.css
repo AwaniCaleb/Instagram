@@ -2,4 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./index.css");
 @import url("./my-profile.css");
