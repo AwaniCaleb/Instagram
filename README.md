@@ -3,10 +3,10 @@
 <!-- ![Instagram UI Screenshot](link-to-your-screenshot) -->
 
 ## 📌 Project Overview
-This project is a frontend implementation of the Instagram user interface, built to practice and showcase skills in **Tailwind CSS**. The focus is on accurate UI replication and responsive design.
+This project is a frontend implementation of the Instagram user interface, built to practice and showcase my skills in **Tailwind CSS**. The focus is on accurate (try to be) UI replication and responsive design (still trying).
 
 ## 🚀 Features
-- Fully responsive layout, optimized for desktop and mobile
+- Fully responsive layout, optimized for desktop and mobile (soon)
 - Styled exclusively using Tailwind CSS utility-first approach
 - Interactive components styled to mimic Instagram's look and feel
 
