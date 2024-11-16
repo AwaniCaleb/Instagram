@@ -18,6 +18,7 @@ This project is a frontend implementation of the Instagram user interface, built
 - **Build Tool**: Vite, GH
 
 ## 📸 Screenshots
+1. Profile page
 ![Profile Screenshot](./public/img/screenshots/profile-page.png)
 
 ## 📄 Getting Started
