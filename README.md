@@ -18,7 +18,7 @@ This project is a frontend implementation of the Instagram user interface, built
 - **Build Tool**: Vite, GH
 
 ## 📸 Screenshots
-![Profile Screenshot](https://awanicaleb.github.io/Instagram/public/img/screenshots/profile-page.png)
+![Profile Screenshot](./public/img/screenshots/profile-page.png)
 
 ## 📄 Getting Started
 ### Prerequisites
